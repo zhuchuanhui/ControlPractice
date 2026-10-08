@@ -13,6 +13,8 @@ jobs:
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
+      - name: Install XcodeGen
+        run: brew install xcodegen
       - name: Build app and DMG
         env:
           APP_VERSION: ${{ github.ref_name }}
