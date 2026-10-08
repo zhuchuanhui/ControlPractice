@@ -21,7 +21,7 @@ fi
 
 APP_PATH="$ROOT/dist/ControlPractice.app"
 DMG_PATH="$ROOT/dist/ControlPractice-$VERSION.dmg"
-"$ROOT/scripts/build_app.sh"
+APP_VERSION="$VERSION" "$ROOT/scripts/build_app.sh"
 STAGING="$ROOT/dist/dmg-staging"
 rm -rf "$STAGING" "$DMG_PATH"
 mkdir -p "$STAGING"
