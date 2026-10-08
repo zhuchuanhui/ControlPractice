@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA0C7597ECAFD50B8E932CD /* DynamicAppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12747151F6378CC8BC3D0319 /* DynamicAppIcon.swift */; };
+		0E7BCDB5E917871AA28D97CC /* AVPlayerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7098F53A28B692153C5FF1 /* AVPlayerContainer.swift */; };
+		12E1770A0D7D40FE1F445231 /* VideoMotionAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF1A7DE43D302DA0ED7E8F /* VideoMotionAnalyzer.swift */; };
+		19BC3C2DB454BE38E80B5664 /* LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27396228FA7167B3A363B5D9 /* LanguageSettings.swift */; };
+		227F3506879538F7C9D87A94 /* WatchMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806B66154ECA200673ED16D0 /* WatchMotionManager.swift */; };
+		2711A947F99A2AB819F126F1 /* TrainingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076D86E3F2571B75B20D2C3 /* TrainingModel.swift */; };
+		34D002856717E24D27079B98 /* MouseActivityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67464812769AA4447195617 /* MouseActivityObserver.swift */; };
+		359C2FD29A35D78F52760D65 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476D671327845B7C66BC2251 /* WatchConnectivityManager.swift */; };
+		396D08FF28EF2655DDF5E808 /* InAppReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09053413905A5919AB70EB81 /* InAppReferenceView.swift */; };
+		4DBDBA0E5DCFDFCD213C4DAC /* LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27396228FA7167B3A363B5D9 /* LanguageSettings.swift */; };
+		4EF2F7D2E50575C24740E5AF /* MotionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DE4645B1C61EDD1038A191 /* MotionSample.swift */; };
+		5792823A08A940A8A60EAB64 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918A38F13470A86E038350DE /* WatchContentView.swift */; };
+		5A2E1D6CB8940AFE1139A4B8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681EDF96607A35C12632044E /* SettingsView.swift */; };
+		5D6EC7B490F427E7194A3FAA /* ControlPracticeWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0CD20A276AF824039B358937 /* ControlPracticeWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6DC41A776B4A4603356E8098 /* MotionMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57FE69188AD5571A742355 /* MotionMonitorView.swift */; };
+		76432D96D646B4295FF3C1D5 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DEBF8F30EA51B2CBEA07E /* Localized.swift */; };
+		AA4F5D7A7D9EA1D4303D1542 /* ControlPracticeWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09C67FE61381870ECBDB86 /* ControlPracticeWatchApp.swift */; };
+		BC89CF95947DFEB1A3D948BD /* MotionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DE4645B1C61EDD1038A191 /* MotionSample.swift */; };
+		BD51CE6BF26006412AD56F58 /* LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27396228FA7167B3A363B5D9 /* LanguageSettings.swift */; };
+		C97258E461F088425760F9E2 /* SceneAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C2289F6E1634AD2AC79A3C /* SceneAnalysis.swift */; };
+		CAE6F46DF62912E8559767B0 /* MotionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC261A0DC5847386E4A71FE /* MotionSample.swift */; };
+		CEB42DC6592B76357AD7F5E9 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DEBF8F30EA51B2CBEA07E /* Localized.swift */; };
+		D152FB56067745DA36F6D350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CFB65D374D38BAAB46309 /* ContentView.swift */; };
+		D1558D436DD90BD26AA850D4 /* PhoneMotionBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B050F88D64336253BD6BE0F0 /* PhoneMotionBridge.swift */; };
+		E3DF80B19071DC7B9EF1FCF6 /* ControlPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870554E3E07672808C2582F0 /* ControlPracticeApp.swift */; };
+		E6CEE42EEDCD61BA576597AE /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DEBF8F30EA51B2CBEA07E /* Localized.swift */; };
+		F1EE26877DB8E44E8F1CF5BD /* MacMotionReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EB607FA395647C0188BFB /* MacMotionReceiver.swift */; };
+		F76FD51ADFAB229F6D11719F /* ControlPracticePhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E2EEB9FF18C7BA3B5D3F3 /* ControlPracticePhoneApp.swift */; };
+		FBD6DA569C90D3207412F558 /* ExtensionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06F7B2AE976B6D808565A295 /* ExtensionInfo.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3F90CB124E95D2122B3EBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA26511E4C6BF4F15856CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E54FC2AAEEF57DFF860AAE6;
+			remoteInfo = ControlPracticeWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F69F42E8B2FA486D58DBFB50 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5D6EC7B490F427E7194A3FAA /* ControlPracticeWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06F7B2AE976B6D808565A295 /* ExtensionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ExtensionInfo.plist; sourceTree = "<group>"; };
+		09053413905A5919AB70EB81 /* InAppReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppReferenceView.swift; sourceTree = "<group>"; };
+		0CD20A276AF824039B358937 /* ControlPracticeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlPracticeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12747151F6378CC8BC3D0319 /* DynamicAppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAppIcon.swift; sourceTree = "<group>"; };
+		194DEBF8F30EA51B2CBEA07E /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		1B09C67FE61381870ECBDB86 /* ControlPracticeWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPracticeWatchApp.swift; sourceTree = "<group>"; };
+		27396228FA7167B3A363B5D9 /* LanguageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSettings.swift; sourceTree = "<group>"; };
+		2CC261A0DC5847386E4A71FE /* MotionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSample.swift; sourceTree = "<group>"; };
+		379E2EEB9FF18C7BA3B5D3F3 /* ControlPracticePhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPracticePhoneApp.swift; sourceTree = "<group>"; };
+		39C2289F6E1634AD2AC79A3C /* SceneAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneAnalysis.swift; sourceTree = "<group>"; };
+		3C6EB607FA395647C0188BFB /* MacMotionReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMotionReceiver.swift; sourceTree = "<group>"; };
+		3E7CFB65D374D38BAAB46309 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		476D671327845B7C66BC2251 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		4B382B5C037B166D7DC391EC /* ControlPracticePhone.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ControlPracticePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		681EDF96607A35C12632044E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		69B5E2AE718B4FDC383176FF /* AppInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AppInfo.plist; sourceTree = "<group>"; };
+		7250895A16391D67447BB049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		806B66154ECA200673ED16D0 /* WatchMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMotionManager.swift; sourceTree = "<group>"; };
+		870554E3E07672808C2582F0 /* ControlPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPracticeApp.swift; sourceTree = "<group>"; };
+		8FCF1A7DE43D302DA0ED7E8F /* VideoMotionAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMotionAnalyzer.swift; sourceTree = "<group>"; };
+		918A38F13470A86E038350DE /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		9809A95D33D0B8FD2E9282E7 /* ControlPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B050F88D64336253BD6BE0F0 /* PhoneMotionBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneMotionBridge.swift; sourceTree = "<group>"; };
+		B9DE4645B1C61EDD1038A191 /* MotionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSample.swift; sourceTree = "<group>"; };
+		C076D86E3F2571B75B20D2C3 /* TrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModel.swift; sourceTree = "<group>"; };
+		D67464812769AA4447195617 /* MouseActivityObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseActivityObserver.swift; sourceTree = "<group>"; };
+		FB7098F53A28B692153C5FF1 /* AVPlayerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerContainer.swift; sourceTree = "<group>"; };
+		FD57FE69188AD5571A742355 /* MotionMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionMonitorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		21AE804E318D610F33C59F18 /* iOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				379E2EEB9FF18C7BA3B5D3F3 /* ControlPracticePhoneApp.swift */,
+				7250895A16391D67447BB049 /* Info.plist */,
+				B050F88D64336253BD6BE0F0 /* PhoneMotionBridge.swift */,
+			);
+			path = iOSApp;
+			sourceTree = "<group>";
+		};
+		310F824A2171025D8002FF6B /* WatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				69B5E2AE718B4FDC383176FF /* AppInfo.plist */,
+				1B09C67FE61381870ECBDB86 /* ControlPracticeWatchApp.swift */,
+				06F7B2AE976B6D808565A295 /* ExtensionInfo.plist */,
+				476D671327845B7C66BC2251 /* WatchConnectivityManager.swift */,
+				918A38F13470A86E038350DE /* WatchContentView.swift */,
+				806B66154ECA200673ED16D0 /* WatchMotionManager.swift */,
+			);
+			path = WatchApp;
+			sourceTree = "<group>";
+		};
+		31B2855E2FAA84FE5123000B = {
+			isa = PBXGroup;
+			children = (
+				B9DE4645B1C61EDD1038A191 /* MotionSample.swift */,
+				EF6F24A13243A9DDF671CA0A /* ControlPractice */,
+				21AE804E318D610F33C59F18 /* iOSApp */,
+				310F824A2171025D8002FF6B /* WatchApp */,
+				8CD37F98BA75AA96F0F0217D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD37F98BA75AA96F0F0217D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9809A95D33D0B8FD2E9282E7 /* ControlPractice.app */,
+				4B382B5C037B166D7DC391EC /* ControlPracticePhone.app */,
+				0CD20A276AF824039B358937 /* ControlPracticeWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6F24A13243A9DDF671CA0A /* ControlPractice */ = {
+			isa = PBXGroup;
+			children = (
+				FB7098F53A28B692153C5FF1 /* AVPlayerContainer.swift */,
+				3E7CFB65D374D38BAAB46309 /* ContentView.swift */,
+				870554E3E07672808C2582F0 /* ControlPracticeApp.swift */,
+				12747151F6378CC8BC3D0319 /* DynamicAppIcon.swift */,
+				09053413905A5919AB70EB81 /* InAppReferenceView.swift */,
+				27396228FA7167B3A363B5D9 /* LanguageSettings.swift */,
+				194DEBF8F30EA51B2CBEA07E /* Localized.swift */,
+				3C6EB607FA395647C0188BFB /* MacMotionReceiver.swift */,
+				FD57FE69188AD5571A742355 /* MotionMonitorView.swift */,
+				2CC261A0DC5847386E4A71FE /* MotionSample.swift */,
+				D67464812769AA4447195617 /* MouseActivityObserver.swift */,
+				39C2289F6E1634AD2AC79A3C /* SceneAnalysis.swift */,
+				681EDF96607A35C12632044E /* SettingsView.swift */,
+				C076D86E3F2571B75B20D2C3 /* TrainingModel.swift */,
+				8FCF1A7DE43D302DA0ED7E8F /* VideoMotionAnalyzer.swift */,
+			);
+			name = ControlPractice;
+			path = Sources/ControlPractice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E54FC2AAEEF57DFF860AAE6 /* ControlPracticeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FA370D889CD1413DDFB951 /* Build configuration list for PBXNativeTarget "ControlPracticeWatch" */;
+			buildPhases = (
+				E454DB26A2345CF6C566E9E7 /* Sources */,
+				0561BDDB1F1424EAF4F1D031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlPracticeWatch;
+			packageProductDependencies = (
+			);
+			productName = ControlPracticeWatch;
+			productReference = 0CD20A276AF824039B358937 /* ControlPracticeWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A49AFDDA01A7F2E86040E3B /* ControlPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6E8B3CC5D7C595DFC7FA88 /* Build configuration list for PBXNativeTarget "ControlPractice" */;
+			buildPhases = (
+				51F00EDEB97C249E8C3C4385 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlPractice;
+			packageProductDependencies = (
+			);
+			productName = ControlPractice;
+			productReference = 9809A95D33D0B8FD2E9282E7 /* ControlPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDCCBA94F369239C0FDA4AAE /* ControlPracticePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61261EB50699693A738ABEE9 /* Build configuration list for PBXNativeTarget "ControlPracticePhone" */;
+			buildPhases = (
+				FBCC7551CABC6833F67E0C5B /* Sources */,
+				F69F42E8B2FA486D58DBFB50 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB9BDC560B73D4CA9280493 /* PBXTargetDependency */,
+			);
+			name = ControlPracticePhone;
+			packageProductDependencies = (
+			);
+			productName = ControlPracticePhone;
+			productReference = 4B382B5C037B166D7DC391EC /* ControlPracticePhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA26511E4C6BF4F15856CBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1E54FC2AAEEF57DFF860AAE6 = {
+						DevelopmentTeam = P5AXR6XT8D;
+						ProvisioningStyle = Automatic;
+					};
+					5A49AFDDA01A7F2E86040E3B = {
+						DevelopmentTeam = P5AXR6XT8D;
+						ProvisioningStyle = Automatic;
+					};
+					CDCCBA94F369239C0FDA4AAE = {
+						DevelopmentTeam = P5AXR6XT8D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1EC0510DA898E7DB783FE6C /* Build configuration list for PBXProject "ControlPractice" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 31B2855E2FAA84FE5123000B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8CD37F98BA75AA96F0F0217D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A49AFDDA01A7F2E86040E3B /* ControlPractice */,
+				CDCCBA94F369239C0FDA4AAE /* ControlPracticePhone */,
+				1E54FC2AAEEF57DFF860AAE6 /* ControlPracticeWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0561BDDB1F1424EAF4F1D031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD6DA569C90D3207412F558 /* ExtensionInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51F00EDEB97C249E8C3C4385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7BCDB5E917871AA28D97CC /* AVPlayerContainer.swift in Sources */,
+				D152FB56067745DA36F6D350 /* ContentView.swift in Sources */,
+				E3DF80B19071DC7B9EF1FCF6 /* ControlPracticeApp.swift in Sources */,
+				0CA0C7597ECAFD50B8E932CD /* DynamicAppIcon.swift in Sources */,
+				396D08FF28EF2655DDF5E808 /* InAppReferenceView.swift in Sources */,
+				19BC3C2DB454BE38E80B5664 /* LanguageSettings.swift in Sources */,
+				E6CEE42EEDCD61BA576597AE /* Localized.swift in Sources */,
+				F1EE26877DB8E44E8F1CF5BD /* MacMotionReceiver.swift in Sources */,
+				6DC41A776B4A4603356E8098 /* MotionMonitorView.swift in Sources */,
+				CAE6F46DF62912E8559767B0 /* MotionSample.swift in Sources */,
+				34D002856717E24D27079B98 /* MouseActivityObserver.swift in Sources */,
+				C97258E461F088425760F9E2 /* SceneAnalysis.swift in Sources */,
+				5A2E1D6CB8940AFE1139A4B8 /* SettingsView.swift in Sources */,
+				2711A947F99A2AB819F126F1 /* TrainingModel.swift in Sources */,
+				12E1770A0D7D40FE1F445231 /* VideoMotionAnalyzer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E454DB26A2345CF6C566E9E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4F5D7A7D9EA1D4303D1542 /* ControlPracticeWatchApp.swift in Sources */,
+				BD51CE6BF26006412AD56F58 /* LanguageSettings.swift in Sources */,
+				CEB42DC6592B76357AD7F5E9 /* Localized.swift in Sources */,
+				BC89CF95947DFEB1A3D948BD /* MotionSample.swift in Sources */,
+				359C2FD29A35D78F52760D65 /* WatchConnectivityManager.swift in Sources */,
+				5792823A08A940A8A60EAB64 /* WatchContentView.swift in Sources */,
+				227F3506879538F7C9D87A94 /* WatchMotionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCC7551CABC6833F67E0C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76FD51ADFAB229F6D11719F /* ControlPracticePhoneApp.swift in Sources */,
+				4DBDBA0E5DCFDFCD213C4DAC /* LanguageSettings.swift in Sources */,
+				76432D96D646B4295FF3C1D5 /* Localized.swift in Sources */,
+				4EF2F7D2E50575C24740E5AF /* MotionSample.swift in Sources */,
+				D1558D436DD90BD26AA850D4 /* PhoneMotionBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB9BDC560B73D4CA9280493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E54FC2AAEEF57DFF860AAE6 /* ControlPracticeWatch */;
+			targetProxy = E3F90CB124E95D2122B3EBD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D2F9E2B93DF34EB025FB77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P5AXR6XT8D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "$(APP_VERSION)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1D5906EA9CA61D072BD9D6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Control Practice";
+				INFOPLIST_KEY_CFBundleLocalizations = "ja en zh-Hans zh-Hant";
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(APP_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(BUILD_NUMBER)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.controlpractice.mac;
+				PRODUCT_NAME = ControlPractice;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		534207E8D18ED95112F70C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = P5AXR6XT8D;
+				INFOPLIST_FILE = iOSApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Control Practice";
+				INFOPLIST_KEY_CFBundleLocalizations = "ja en zh-Hans zh-Hant";
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(APP_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(BUILD_NUMBER)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Macアプリへ計測データを送信するためにローカルネットワークを使用します。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.controlpractice.iphone;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		568F123CCCDA056EFFBD8A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = P5AXR6XT8D;
+				INFOPLIST_FILE = iOSApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Control Practice";
+				INFOPLIST_KEY_CFBundleLocalizations = "ja en zh-Hans zh-Hant";
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(APP_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(BUILD_NUMBER)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Macアプリへ計測データを送信するためにローカルネットワークを使用します。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.controlpractice.iphone;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79B71CA99ECD91B5F6B2801E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5AXR6XT8D;
+				INFOPLIST_FILE = WatchApp/AppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Control Practice";
+				INFOPLIST_KEY_CFBundleLocalizations = "ja en zh-Hans zh-Hant";
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(APP_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(BUILD_NUMBER)";
+				INFOPLIST_KEY_NSMotionUsageDescription = "手首の動きを計測するためにモーションセンサーを使用します。";
+				PRODUCT_BUNDLE_IDENTIFIER = com.controlpractice.iphone.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		824804CBA17F1A7C78D5A33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P5AXR6XT8D;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = "$(APP_VERSION)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		99DB78AA7C220990271864BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5AXR6XT8D;
+				INFOPLIST_FILE = WatchApp/AppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Control Practice";
+				INFOPLIST_KEY_CFBundleLocalizations = "ja en zh-Hans zh-Hant";
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(APP_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(BUILD_NUMBER)";
+				INFOPLIST_KEY_NSMotionUsageDescription = "手首の動きを計測するためにモーションセンサーを使用します。";
+				PRODUCT_BUNDLE_IDENTIFIER = com.controlpractice.iphone.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		BB553F61B2DD2B8D32D59F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Control Practice";
+				INFOPLIST_KEY_CFBundleLocalizations = "ja en zh-Hans zh-Hant";
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(APP_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(BUILD_NUMBER)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.controlpractice.mac;
+				PRODUCT_NAME = ControlPractice;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61261EB50699693A738ABEE9 /* Build configuration list for PBXNativeTarget "ControlPracticePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568F123CCCDA056EFFBD8A02 /* Debug */,
+				534207E8D18ED95112F70C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		62FA370D889CD1413DDFB951 /* Build configuration list for PBXNativeTarget "ControlPracticeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B71CA99ECD91B5F6B2801E /* Debug */,
+				99DB78AA7C220990271864BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F6E8B3CC5D7C595DFC7FA88 /* Build configuration list for PBXNativeTarget "ControlPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5906EA9CA61D072BD9D6C1 /* Debug */,
+				BB553F61B2DD2B8D32D59F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E1EC0510DA898E7DB783FE6C /* Build configuration list for PBXProject "ControlPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2F9E2B93DF34EB025FB77E /* Debug */,
+				824804CBA17F1A7C78D5A33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA26511E4C6BF4F15856CBD /* Project object */;
+}
